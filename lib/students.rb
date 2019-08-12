@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  high_gpa = SELECT * FROM create ORDER BY gpa ASC
+  high_gpa = SELECT * FROM create ORDER BY gpa ASC LIMIT 1;
   return high_gpa
 end
 
