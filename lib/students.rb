@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  return "SELECT * FROM create ORDER BY gpa ASC LIMIT 1;"
+  "SELECT * FROM create ORDER BY gpa ASC LIMIT 1;"
 end
 
 def lowest_student_gpa
