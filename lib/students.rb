@@ -1,7 +1,8 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  SELECT * FROM cats ORDER BY age DESC
+  high_gpa = SELECT * FROM create ORDER BY gpa ASC
+  return high_gpa
 end
 
 def lowest_student_gpa
